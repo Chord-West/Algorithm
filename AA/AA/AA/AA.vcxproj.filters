@@ -24,5 +24,16 @@
     <ClCompile Include="sumofmeasurecpp.cpp">
       <Filter>소스 파일\basic</Filter>
     </ClCompile>
+    <ClCompile Include="Agedifference.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Agecalculate.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>소스 파일\basic</Filter>
+    </Text>
   </ItemGroup>
 </Project>
