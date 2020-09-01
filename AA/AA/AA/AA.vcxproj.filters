@@ -33,6 +33,15 @@
     <ClCompile Include="Extractonlynum.cpp">
       <Filter>소스 파일\basic</Filter>
     </ClCompile>
+    <ClCompile Include="RightBracket.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Alltrivialdivisor.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="SumofDigit.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
