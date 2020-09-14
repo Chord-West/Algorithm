@@ -66,6 +66,12 @@
     <ClCompile Include="floornoise.cpp">
       <Filter>소스 파일\basic</Filter>
     </ClCompile>
+    <ClCompile Include="Angertrigger.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="RockScissorsPaper.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
