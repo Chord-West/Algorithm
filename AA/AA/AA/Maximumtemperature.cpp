@@ -20,12 +20,9 @@ int main() {
 		cin >> num;
 		tmp.push_back(num);
 	}
-	for (int i = 0; i < k; i++) {
-		sum+= tmp[i]; //초기값
-	}
-	if (sum > max) {
-		max = sum;
-	}
+	for (int i = 0; i < k; i++) sum+= tmp[i]; //초기값
+	if (sum > max) max = sum;
+	
 	for (int i = k; i <= n-1; i++) {
 		sum +=tmp[i];
 		sum -= tmp[index];
