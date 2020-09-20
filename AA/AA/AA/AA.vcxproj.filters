@@ -93,6 +93,12 @@
     <ClCompile Include="Nfactorial.cpp">
       <Filter>소스 파일\basic</Filter>
     </ClCompile>
+    <ClCompile Include="NfocNumofZero.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="CountOfThree.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">

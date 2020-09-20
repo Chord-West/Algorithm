@@ -24,6 +24,12 @@
     <ClCompile Include="Quiz_InsertionSort.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
+    <ClCompile Include="Quize_Mergesort.cpp">
+      <Filter>소스 파일\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <Filter>소스 파일\Sorting</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
