@@ -1,2 +1,4 @@
-﻿  CountOfThree.cpp
+﻿  Hydrocarbonmass.cpp
+C:\Users\user\Desktop\Project\Algorithm\AA\AA\AA\Hydrocarbonmass.cpp(18,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project\Algorithm\AA\AA\AA\Hydrocarbonmass.cpp(26,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   AA.vcxproj -> C:\Users\user\Desktop\Project\Algorithm\AA\AA\Debug\AA.exe
