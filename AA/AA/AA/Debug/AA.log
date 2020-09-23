@@ -1,5 +1,2 @@
-﻿  bubblesort.cpp
-C:\Users\user\Desktop\Project\Algorithm\AA\AA\AA\bubblesort.cpp(18,16): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\user\Desktop\Project\Algorithm\AA\AA\AA\bubblesort.cpp(19,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\user\Desktop\Project\Algorithm\AA\AA\AA\bubblesort.cpp(27,16): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  specialsort.cpp
   AA.vcxproj -> C:\Users\user\Desktop\Project\Algorithm\AA\AA\Debug\AA.exe

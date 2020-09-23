@@ -6,8 +6,8 @@ using namespace std;
 
 int main() {
 	ios_base::sync_with_stdio(false);
-	//fstream cin;
-	//cin.open("input2.txt");
+	fstream cin;
+	cin.open("input2.txt");
 	vector<int> arr;
 	int n,num,i,j;
 	cin >> n;

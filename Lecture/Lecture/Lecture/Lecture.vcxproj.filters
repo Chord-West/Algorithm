@@ -30,6 +30,9 @@
     <ClCompile Include="MergeSort.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
+    <ClCompile Include="MaxmumSubarray.cpp">
+      <Filter>소스 파일\Sorting</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
