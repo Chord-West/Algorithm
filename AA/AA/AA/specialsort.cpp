@@ -9,7 +9,7 @@ int main() {
 	//fstream cin;
 	//cin.open("input2.txt");
 	int n,num,i,j;
-	int count = 0;
+	int count = 0; 
 	vector<int> arr;
 	
 	cin >> n;
