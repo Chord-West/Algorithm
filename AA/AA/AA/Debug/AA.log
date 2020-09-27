@@ -1,2 +1,4 @@
-﻿  LRU.cpp
+﻿  mergesort.cpp
+C:\Users\user\Desktop\Project\Algorithm\AA\AA\AA\mergesort.cpp(47,16): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Project\Algorithm\AA\AA\AA\mergesort.cpp(12,19): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
   AA.vcxproj -> C:\Users\user\Desktop\Project\Algorithm\AA\AA\Debug\AA.exe

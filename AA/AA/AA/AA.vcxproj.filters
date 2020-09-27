@@ -120,6 +120,12 @@
     <ClCompile Include="LRU.cpp">
       <Filter>소스 파일\sort</Filter>
     </ClCompile>
+    <ClCompile Include="InversionSequence.cpp">
+      <Filter>소스 파일\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="mergesort.cpp">
+      <Filter>소스 파일\sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
