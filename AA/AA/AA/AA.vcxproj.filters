@@ -126,6 +126,12 @@
     <ClCompile Include="mergesort.cpp">
       <Filter>소스 파일\sort</Filter>
     </ClCompile>
+    <ClCompile Include="Intersection.cpp">
+      <Filter>소스 파일\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="cosecutivenaturalnum.cpp">
+      <Filter>소스 파일\sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
