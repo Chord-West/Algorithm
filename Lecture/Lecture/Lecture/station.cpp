@@ -5,28 +5,39 @@ using namespace std;
 
 int solution(int n, vector<int> stations, int w)
 {
-    int answer = 3;
-    vector<int> apt(n+1);
-    for (int i = 1; i <= n; i++) apt[i] = i;
-    while (stations.size() != 0) {
-        int num = stations.back();
-        stations.pop_back(); //1°³¾¿ »©±â
-        for (int i = num - w; i < num + w; i++) {
-            if (i > n || i < 1)
-                continue;
-            else apt[i] = 0;
-        }
-    }
+	int answer = 0;
+	int start = 0;
+	int dis = w * 2 + 1;
+	for (int i = 0; i < stations.size(); i++) {
+		int lt = stations[i] - 1 - w;
+		int rt = stations[i] - 1 + w;
+		if (start >= lt && start <= rt) {
+			start = rt + 1;
+			continue;
+		}
 
-    for (int i = 1; i <= n; i++) {
-        cout << apt[i] << " ";
-    }
+		int div = (lt - start) / dis;
+		int rest = (lt - start) % dis;
+		if (rest > 0) {
+			div += 1;
+		}
+		answer += div;
 
-    return answer;
+		start = rt + 1;
+	}
+	if (start < n) {
+		int div = (n - start) / dis;
+		int rest = (n - start) % dis;
+		if (rest > 0)
+			div += 1;
+		answer += div;
+	}
+
+	return answer;
 }
 
 int main() {
-    int n = 11, w = 1;
-    vector<int> v = {4,11};
+    int n = 16, w = 2;
+    vector<int> v = {9};
     cout << solution(n, v, w);
 }
