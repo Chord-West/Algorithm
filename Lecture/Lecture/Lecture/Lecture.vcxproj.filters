@@ -24,9 +24,6 @@
     <ClCompile Include="Quiz_InsertionSort.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
-    <ClCompile Include="Quize_Mergesort.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
     <ClCompile Include="MergeSort.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
@@ -36,7 +33,16 @@
     <ClCompile Include="ex.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
-    <ClCompile Include="station.cpp">
+    <ClCompile Include="Quiz_RadixSort.cpp">
+      <Filter>소스 파일\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz_station.cpp">
+      <Filter>소스 파일\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz_Mergesort.cpp">
+      <Filter>소스 파일\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="CountinSort.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
   </ItemGroup>
