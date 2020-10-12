@@ -20,7 +20,7 @@ int digit16(int v, int d) {
     return v & 0xf;
 }
 //vector<pair<int, string> > tmp(8);
-vector<int> c(16, 0);
+//vector<int> c(16, 0);
 vector<pair<int, string> > v;
 void countingSort16(vector<pair<int, string> >& v, int d);
 int n;
@@ -37,8 +37,13 @@ int main(void) {
         v.push_back(pair<int, string>(d, s));
     }
     //radixsort
-    for (int d = 0; d < 8; d++)
+    for (int d = 0; d < 8; d++) {
         countingSort16(v, d);
+        for (int i = 0; i < n; i++) {
+            cout << v[i].first << ' ' << v[i].second << endl;
+        }
+    } 
+
 
     for (int i = 0; i < n; i++) {
         cout << v[i].first << ' ' << v[i].second << endl;
@@ -47,20 +52,24 @@ int main(void) {
 }
 
 void countingSort16(vector<pair<int, string> >& v, int d) {
-    vector<pair<int, string> > tmp(v.size()-1);
+    vector<pair<int, string> > tmp(v.size());
+    vector<int> c(16, 0);
+    vector<int> a(n); //16Áø¼ö input
     for (int i = 0; i < n; i++) {
-        int k= digit16(v[i].first, d);
-        c[k]++;
+        a[i]= digit16(v[i].first, d); //input
+        c[a[i]]++;
     }
     for (int i = 1; i < c.size(); i ++ ) {
         c[i] = c[i] + c[i - 1];
     }
-    for (int i = 0; i < c.size(); i++) {
-        cout << c[i];
+  
+    for (int i = a.size()-1; i >=0; i--) {
+        tmp[c[a[i]]-1] = v[i];
+        c[a[i]] = c[a[i]] - 1;
     }
-    for (int i = v.size(); i > 1; i--) {
-        tmp[c[v[i].first]] = v[i];
-        c[v[i].first] = c[v[i].first] - 1;
+    for (int i = 0; i < tmp.size(); i++) {
+        cout << tmp[i].first << ' ' << tmp[i].second << endl;
     }
-
+    v = tmp;
+    
 }
