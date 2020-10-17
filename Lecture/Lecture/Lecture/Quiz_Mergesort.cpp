@@ -1,3 +1,11 @@
+/*
+Mergesort를 구현하시오. 표준 출력으로부터의 입력은 다음과 같다. 첫번째 행에 데이터의 갯수 n 이 2 와 1000 사이의 정수로 주어진다.
+두번째 행부터 n+1 번째 행에 정수와 영어단어의 쌍이 공백으로 구분되어 주어진다.
+이 n개의 데이터들을 내림차순으로 stable하게 정렬하여 표준 출력에 정수와 영어 단어의 쌍을 출력하라
+*/
+
+
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -12,6 +20,8 @@ vector<pair<int, string> > sorted(1001);
 int main(void) {
     int n;
     vector<pair<int, string> > v;
+    int max = INT_MAX;
+    int min = INT_MIN;
 
     cin >> n;
 
