@@ -31,7 +31,7 @@ void quicksort(vector<int>& data, int start, int end) {
 
 int main() {
 	ios_base::sync_with_stdio(false);
-	vector<int> arr = { 1,10,5,8,7,6,4,3,2,9 };
+	vector<int> arr = { 5, 3, 8, 4, 9, 1, 6, 2,7,7,8 };
 	quicksort(arr, 0, arr.size() - 1);
 	for (int i = 0; i < arr.size(); i++) {
 		cout << arr[i] << " ";

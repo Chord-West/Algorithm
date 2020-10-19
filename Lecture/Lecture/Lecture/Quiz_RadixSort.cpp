@@ -19,16 +19,12 @@ int digit16(int v, int d) {
     v = v >> d * 4;
     return v & 0xf;
 }
-//vector<pair<int, string> > tmp(8);
-//vector<int> c(16, 0);
 vector<pair<int, string> > v;
 void countingSort16(vector<pair<int, string> >& v, int d);
 int n;
 int main(void) {
     ifstream cin;
     cin.open("input.txt");
-   
-    
     cin >> n;
     for (int i = 0; i < n; i++) {
         int d;

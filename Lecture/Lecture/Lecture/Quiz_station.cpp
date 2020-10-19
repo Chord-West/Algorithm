@@ -15,14 +15,12 @@ int solution(int n, vector<int> stations, int w)
 			start = rt + 1;
 			continue;
 		}
-
 		int div = (lt - start) / dis;
 		int rest = (lt - start) % dis;
 		if (rest > 0) {
 			div += 1;
 		}
 		answer += div;
-
 		start = rt + 1;
 	}
 	if (start < n) {
@@ -35,7 +33,6 @@ int solution(int n, vector<int> stations, int w)
 
 	return answer;
 }
-
 int main() {
     int n = 16, w = 2;
     vector<int> v = {9};

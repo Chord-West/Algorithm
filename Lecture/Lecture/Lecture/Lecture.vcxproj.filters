@@ -39,9 +39,6 @@
     <ClCompile Include="Quiz_Mergesort.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
-    <ClCompile Include="CountinSort.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
     <ClCompile Include="Quiz_MaxmumSubarray.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
@@ -49,6 +46,9 @@
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
     <ClCompile Include="QuickSort.cpp">
+      <Filter>소스 파일\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="CountingSort.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
   </ItemGroup>
