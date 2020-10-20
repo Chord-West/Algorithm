@@ -20,11 +20,12 @@ int main() {
 			j--;
 		}
 	}
-	for (int i = 0; i < 10; i++) {
-		cout << array[i] << " ";
-	}
+	for (int i = 0; i < 10; i++) cout << array[i] << " ";
+
 }
 ```
+
+
 
 - Quiz
 
@@ -110,7 +111,46 @@ int main() {
 }
 ```
 
+- Quiz (Maximum Subarray)
 
+  ```c++
+  #include <iostream> 
+  #include <climits> 
+  #include <vector>
+  using namespace std;
+  int max(int a, int b) { return (a > b) ? a : b; }
+  int max(int a, int b, int c) { return max(max(a, b), c); }
+  int maxCrossingSum(vector<int>& arr ,int l, int m, int h){
+      int sum = 0;
+      int left_sum = INT_MIN;
+      for (int i = m; i >= l; i--){
+          sum = sum + arr[i];
+          if (sum > left_sum) left_sum = sum;
+      }
+      sum = 0;
+      int right_sum = INT_MIN;
+      for (int i = m + 1; i <= h; i++){
+          sum = sum + arr[i];
+          if (sum > right_sum)right_sum = sum;
+      }
+      return max(left_sum + right_sum, left_sum, right_sum);
+  }
+  int maxSubArraySum(vector<int>& arr, int l, int h){
+      if (l == h) return arr[l];
+      int m = (l + h) / 2;
+      return max(maxSubArraySum(arr, l, m),maxSubArraySum(arr, m + 1, h),maxCrossingSum(arr, l, m, h));
+  }
+  
+  int main()
+  {
+      vector<int> arr = { 2, 3, 4, 5, 7 };
+      int max_sum = maxSubArraySum(arr, 0, arr.size() - 1);
+      cout << max_sum;
+      return 0;
+  }
+  ```
+
+  
 
 ##### - HeapSort
 
@@ -235,5 +275,54 @@ int main() {
 }
 ```
 
+- Quiz (Radixsort)
 
+  ```c++
+  #include <iostream>
+  #include <vector>
+  #include <string>
+  using namespace std;
+  
+  vector<pair<int, string> > v;
+  int n;
+  int digit16(int v, int d) {
+      // 양의 정수 v 의 16진수 d 번째 숫자를 반환하는 함수
+      // 예를 들어 v 의 값이 78320238 (= 0x04ab126e) 이고 d 가 1 이라면 6 을 반환
+      // 예를 들어 v 의 값이 78320238 (= 0x04ab126e) 이고 d 가 4 라면 11 (= 0xb) 을 반환
+      v = v >> d * 4;
+      return v & 0xf;
+  }
+  void countingSort16(vector<pair<int, string> >& v, int d) {
+      vector<pair<int, string> > tmp(v.size());
+      vector<int> c(16, 0);
+      vector<int> a(n); //16진수 input
+      for (int i = 0; i < n; i++) {
+          a[i] = digit16(v[i].first, d); //input
+          c[a[i]]++;
+      }
+      for (int i = 1; i < c.size(); i++)  c[i] = c[i] + c[i - 1];
+      
+      for (int i = a.size() - 1; i >= 0; i--) {
+          tmp[c[a[i]] - 1] = v[i];
+          c[a[i]] = c[a[i]] - 1;
+      }
+      v = tmp;
+  }
+  int main(void) {
+      cin >> n;
+      for (int i = 0; i < n; i++) {
+          int d;
+          string s;
+          cin >> d >> s;
+          v.push_back(pair<int, string>(d, s));
+      }
+      //radixsort
+      for (int d = 0; d < 8; d++) countingSort16(v, d);
+      
+      for (int i = 0; i < n; i++)  cout << v[i].first << ' ' << v[i].second << endl;
+      return 0;
+  }
+  ```
+
+  
 

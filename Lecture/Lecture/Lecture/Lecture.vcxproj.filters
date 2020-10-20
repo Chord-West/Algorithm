@@ -27,9 +27,6 @@
     <ClCompile Include="MergeSort.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
-    <ClCompile Include="ex.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
     <ClCompile Include="Quiz_RadixSort.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
@@ -49,6 +46,9 @@
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
     <ClCompile Include="CountingSort.cpp">
+      <Filter>소스 파일\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="xx.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
   </ItemGroup>
