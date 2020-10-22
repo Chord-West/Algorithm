@@ -2,43 +2,49 @@
 #include <fstream>
 #include <vector>
 #include <algorithm>
+#include <climits>
 
 using namespace std;
 
-int n;
-int Count(int len, vector<int> x) {
-	int cnt = 1, pos = x[1];
-	for (int i = 2; i <= n; i++) {
-		if (x[i] - pos >= len) {
-			cnt++;
-			pos = x[i];
+int n, c;
+vector<int> v;
+
+int Count(int mid) {
+	int count=1;
+	int start = 0;
+	for (int i = 1; i < v.size(); i++) {
+		if (v[i] - v[start] >= mid) {
+			count++;
+			start = i;
 		}
 	}
-	return cnt;
+	return count;
 }
 
 int main() {
+	//ifstream cin;
 	ios_base::sync_with_stdio(false);
-	ifstream cin;
-	cin.open("input2.txt");
-	int  c, x,mid,res;
+	//cin.open("input2.txt");
+	int x;
 	cin >> n >> c;
-	vector<int> stable(n+1);
-	vector<int> ans;
-	for (int i = 1; i <= n; i++) {
+	for (int i = 0; i < n; i++) {
 		cin >> x;
-		stable[i]=x;
+		v.push_back(x);
 	}
-	sort(stable.begin(), stable.end());
-	int lt = 1;
-	int rt = stable[n];
+	sort(v.begin(), v.end()); //Á¤·Ä  1 2 4 8 9
+	int max = INT_MIN;
+	int start = v[0];
+	int lt = v[0];
+	int rt = v[n - 1];
 	while (lt <= rt) {
-		mid = (lt + rt) / 2;
-		if (Count(mid, stable) >= c) {
-			res = mid;
-			lt = mid + 1;
+		int mid = (lt + rt) / 2;
+		if (Count(mid) < c) {
+			rt = mid - 1;
 		}
-		else rt = mid - 1;
+		else{
+			lt = mid + 1;
+			if (max < mid)max = mid;
+		}
 	}
-	cout << res;
+	cout << max;
 }

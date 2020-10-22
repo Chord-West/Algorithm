@@ -144,6 +144,9 @@
     <ClCompile Include="Stableofstablecpp.cpp">
       <Filter>소스 파일\sort</Filter>
     </ClCompile>
+    <ClCompile Include="Savingtheprincess.cpp">
+      <Filter>소스 파일\sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
