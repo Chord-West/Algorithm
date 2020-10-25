@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>4aeafe79-fb08-40d6-b7a1-968f5e74e9de</ProjectGuid>
+    <ProjectGuid>d5b029fe-bbd9-4c86-bcb4-836032d23bd3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Section1\RepresentativeValue.py</StartupFile>
+    <StartupFile>Level1\PythonAlgorithm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Python_AA</Name>
-    <RootNamespace>Python_AA</RootNamespace>
+    <Name>PythonAlgorithm</Name>
+    <RootNamespace>PythonAlgorithm</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,26 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Section1\RepresentativeValue.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Section1\KthLargestnumber.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Section1\KthFactor.py">
-      <Publish>True</Publish>
-    </Compile>
-    <Compile Include="Section1\kthNumber.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Level1\PythonAlgorithm.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Section1\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="input.txt">
-      <SubType>Code</SubType>
-    </Content>
+    <Folder Include="Level1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
