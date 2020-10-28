@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4aeafe79-fb08-40d6-b7a1-968f5e74e9de</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Section1\RepresentativeValue.py</StartupFile>
+    <StartupFile>Section1\RegularPolyhedron.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Section1\RegularPolyhedron.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Section1\RepresentativeValue.py">
       <SubType>Code</SubType>
     </Compile>
