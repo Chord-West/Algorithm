@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4aeafe79-fb08-40d6-b7a1-968f5e74e9de</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Section1\CountofPrimenum.py</StartupFile>
+    <StartupFile>Lecture\ex.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Lecture\ex.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lecture\fourcal.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Section1\CountofPrimenum.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section1\DiceGame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section1\FlippedPirmeNum.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Section1\RegularPolyhedron.py">
@@ -41,6 +53,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Lecture\" />
     <Folder Include="Section1\" />
   </ItemGroup>
   <ItemGroup>
