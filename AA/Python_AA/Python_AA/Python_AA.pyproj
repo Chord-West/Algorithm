@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4aeafe79-fb08-40d6-b7a1-968f5e74e9de</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lecture\ex.py</StartupFile>
+    <StartupFile>Section2\CombineTwolist.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -51,9 +51,25 @@
     <Compile Include="Section1\kthNumber.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Section1\Scorecalculation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section2\CombineTwolist.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section2\Eztractonlynum.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section2\Pstringinspection.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section2\ReverseCardOrder.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Lecture\" />
+    <Folder Include="Section2\" />
     <Folder Include="Section1\" />
   </ItemGroup>
   <ItemGroup>
