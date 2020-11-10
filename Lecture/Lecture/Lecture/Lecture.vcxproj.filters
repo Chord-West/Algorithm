@@ -13,48 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Sorting">
-      <UniqueIdentifier>{ebcf0d3e-2ba0-4612-a85f-043500f97c67}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="InsertionSort.cpp">
-      <Filter>소스 파일\Sorting</Filter>
+    <ClCompile Include="BinarySearchTree.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Quiz_InsertionSort.cpp">
-      <Filter>소스 파일\Sorting</Filter>
+    <ClCompile Include="ex.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="MergeSort.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
-    <ClCompile Include="Quiz_RadixSort.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
-    <ClCompile Include="Quiz_station.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
-    <ClCompile Include="Quiz_Mergesort.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
-    <ClCompile Include="Quiz_MaxmumSubarray.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
-    <ClCompile Include="HeapSort.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
-    <ClCompile Include="QuickSort.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
-    <ClCompile Include="CountingSort.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
-    <ClCompile Include="xx.cpp">
-      <Filter>소스 파일\Sorting</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="input.txt">
-      <Filter>소스 파일\Sorting</Filter>
-    </Text>
   </ItemGroup>
 </Project>
