@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bd1c421c-1ef3-4050-8a93-49626bf923aa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Greedy\multiplitoradd.py</StartupFile>
+    <StartupFile>Greedy\updownleftright.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Greedy\adventurerguild.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Greedy\multiplitoradd.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Greedy\untilnumone.py" />
+    <Compile Include="Greedy\updownleftright.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Greedy\" />
