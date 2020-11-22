@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>bd1c421c-1ef3-4050-8a93-49626bf923aa</ProjectGuid>
+    <ProjectGuid>d8f3f2c4-6d45-49aa-9ebc-549a53916f95</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Greedy\Stringreordering.py</StartupFile>
+    <StartupFile>Silver\eight_1105.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>python_lecture</Name>
-    <RootNamespace>python_lecture</RootNamespace>
+    <Name>BaekJoon</Name>
+    <RootNamespace>BaekJoon</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,25 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Greedy\adventurerguild.py">
+    <Compile Include="Silver\eight_1105.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Greedy\multiplitoradd.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Greedy\Stringreordering.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Greedy\time.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Greedy\untilnumone.py" />
-    <Compile Include="Greedy\updownleftright.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Silver\parade_1080.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Greedy\" />
+    <Folder Include="Silver\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="input.txt">
