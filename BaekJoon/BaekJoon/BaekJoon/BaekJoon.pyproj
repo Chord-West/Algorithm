@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d8f3f2c4-6d45-49aa-9ebc-549a53916f95</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Silver\eight_1105.py</StartupFile>
+    <StartupFile>Silver\standinLine_1138.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Silver\parade_1080.py" />
+    <Compile Include="Silver\standinLine_1138.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Silver\" />
