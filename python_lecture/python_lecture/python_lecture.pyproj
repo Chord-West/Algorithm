@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bd1c421c-1ef3-4050-8a93-49626bf923aa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Greedy\Stringreordering.py</StartupFile>
+    <StartupFile>DFSBFS\DFS.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DFSBFS\DFS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFSBFS\GCD.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFSBFS\recursive_function.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Greedy\adventurerguild.py">
       <SubType>Code</SubType>
     </Compile>
@@ -40,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Greedy\" />
+    <Folder Include="DFSBFS\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="input.txt">
