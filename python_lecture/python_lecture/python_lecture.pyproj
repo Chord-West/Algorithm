@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bd1c421c-1ef3-4050-8a93-49626bf923aa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DFSBFS\DFS.py</StartupFile>
+    <StartupFile>DFSBFS\EscapeTheMaze.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DFSBFS\BFS.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DFSBFS\DFS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFSBFS\EscapeTheMaze.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFSBFS\FreezingDrink.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DFSBFS\GCD.py">
