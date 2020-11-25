@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d8f3f2c4-6d45-49aa-9ebc-549a53916f95</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Silver\DFSandBFS.py</StartupFile>
+    <StartupFile>Silver\OrganicCabbage_1012.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Silver\DFSandBFS.py">
+    <Compile Include="Silver\DFSandBFS_1260.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Silver\eight_1105.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Silver\OrganicCabbage_1012.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Silver\parade_1080.py" />
