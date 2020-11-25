@@ -3,19 +3,16 @@ import sys
 
 sys.stdin = open("input.txt","rt")
 
+      # 우 , 좌, 하, 상
+dx = [1,-1,0,0]
+dy = [0,0,1,-1]
 
-def dfs(x,y):
-    if x<0 or x>n-1 or y<0 or y>m-1 :
-        return False
-    if land[x][y] ==1:
-        land[x][y]=2
-        dfs(x,y+1)
-        dfs(x+1,y)
-        dfs(x,y-1)
-        dfs(x-1,y)
-        return True
-    return False
 
+def dfs(start,ground):
+    queue = deque()
+    queue.append(start)
+    while queue:
+        y,x = queue.popleft()
 
 
 t = int(input()) # 테스트 케이스

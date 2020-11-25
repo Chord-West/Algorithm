@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d8f3f2c4-6d45-49aa-9ebc-549a53916f95</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Silver\OrganicCabbage_1012.py</StartupFile>
+    <StartupFile>Silver\virus_2606.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,9 @@
     </Compile>
     <Compile Include="Silver\parade_1080.py" />
     <Compile Include="Silver\standinLine_1138.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Silver\virus_2606.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
