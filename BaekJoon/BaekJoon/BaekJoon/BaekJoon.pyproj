@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d8f3f2c4-6d45-49aa-9ebc-549a53916f95</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Silver\standinLine_1138.py</StartupFile>
+    <StartupFile>Silver\DFSandBFS.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Silver\DFSandBFS.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Silver\eight_1105.py">
       <SubType>Code</SubType>
     </Compile>
