@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bd1c421c-1ef3-4050-8a93-49626bf923aa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DFSBFS\EscapeTheMaze.py</StartupFile>
+    <StartupFile>DFSBFS\bustrip.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DFSBFS\BFS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFSBFS\bustrip.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DFSBFS\DFS.py">

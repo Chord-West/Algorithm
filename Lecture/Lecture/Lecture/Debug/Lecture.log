@@ -1,4 +1,3 @@
-﻿  BinarySearchTree.cpp
-  ex.cpp
-  코드를 생성하고 있습니다...
-  Lecture.vcxproj -> C:\Users\user\Desktop\Project\Algorithm\Lecture\Lecture\Debug\Lecture.exe
+﻿  avl_ex.cpp
+C:\Users\user\Desktop\Project\Algorithm\Lecture\Lecture\Lecture\avl_ex.cpp(27,38): error C2440: '초기화 중': 'void *'에서 'Node *'(으)로 변환할 수 없습니다.
+C:\Users\user\Desktop\Project\Algorithm\Lecture\Lecture\Lecture\avl_ex.cpp(27,16): message : 'void*'에서 'void'가 아닌 포인터로 변환하려면 명시적 캐스트가 필요합니다.
