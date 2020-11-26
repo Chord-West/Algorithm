@@ -1,3 +1,0 @@
-﻿  avl_ex.cpp
-C:\Users\user\Desktop\Project\Algorithm\Lecture\Lecture\Lecture\avl_ex.cpp(27,38): error C2440: '초기화 중': 'void *'에서 'Node *'(으)로 변환할 수 없습니다.
-C:\Users\user\Desktop\Project\Algorithm\Lecture\Lecture\Lecture\avl_ex.cpp(27,16): message : 'void*'에서 'void'가 아닌 포인터로 변환하려면 명시적 캐스트가 필요합니다.
