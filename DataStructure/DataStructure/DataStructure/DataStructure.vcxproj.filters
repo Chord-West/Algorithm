@@ -15,16 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AVL_Tree.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="avl_ex.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Lecture\Lecture\Lecture\BinarySearchTree.cpp">
+    <ClCompile Include="..\..\..\..\..\..\Downloads\AVL_skeleton_cpp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Downloads\AVL_skeleton_cpp.cpp">
+    <ClCompile Include="BinarySearchTree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="avl_ex2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAVL_Tree.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
