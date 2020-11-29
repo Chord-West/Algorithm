@@ -1,17 +1,21 @@
 
-def dfs(numbers,count,sum,target):
-    if count==5:
-        return 0
-        if sum == target:
-           return sum
-    dfs(numbers,count+1,sum+numbers[count],target)
-    dfs(numbers,count+1,sum-numbers[count],target)
-    return 0
 
 def solution(numbers, target):
     answer=0
-    answer=answer+dfs(numbers,0,sum,target)
+    n = len(numbers)
+
+    def dfs(cnt,sum):
+        if cnt==n: 
+            if sum == target:
+                nonlocal answer
+                answer+=1
+        else:
+            dfs(cnt+1,sum+numbers[cnt])
+            dfs(cnt+1,sum-numbers[cnt])
+    dfs(0,0)
+
     return answer
+
 
 numbers = [1,1,1,1,1]
 target=3

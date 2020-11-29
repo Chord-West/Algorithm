@@ -1,0 +1,15 @@
+﻿  AVL_skeleton_cpp.cpp
+  avl_ex.cpp
+C:\Users\user\Desktop\Project\Algorithm\DataStructure\DataStructure\DataStructure\avl_ex.cpp(23,38): error C2440: '초기화 중': 'void *'에서 'Node *'(으)로 변환할 수 없습니다.
+C:\Users\user\Desktop\Project\Algorithm\DataStructure\DataStructure\DataStructure\avl_ex.cpp(23,16): message : 'void*'에서 'void'가 아닌 포인터로 변환하려면 명시적 캐스트가 필요합니다.
+  avl_ex2.cpp
+  BinarySearchTree.cpp
+  MyAVL_Tree.cpp
+  코드를 생성하고 있습니다...
+C:\Users\user\Desktop\Project\Algorithm\DataStructure\DataStructure\DataStructure\MyAVL_Tree.cpp(158): warning C4715: 'insertBST': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\user\Desktop\Project\Algorithm\DataStructure\DataStructure\DataStructure\MyAVL_Tree.cpp(142): warning C4715: 'updateBF': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\user\Desktop\Project\Algorithm\DataStructure\DataStructure\DataStructure\avl_ex2.cpp(57): warning C4715: 'insertBST': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\user\Desktop\Project\Algorithm\DataStructure\DataStructure\DataStructure\avl_ex2.cpp(215): warning C4715: 'updateBF': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\user\Downloads\AVL_skeleton_cpp.cpp(116): error C4716: 'deleteBST': 값을 반환해야 합니다.
+C:\Users\user\Downloads\AVL_skeleton_cpp.cpp(25): error C4716: 'getNode': 값을 반환해야 합니다.
+C:\Users\user\Downloads\AVL_skeleton_cpp.cpp(88): error C4716: 'insertBST': 값을 반환해야 합니다.
