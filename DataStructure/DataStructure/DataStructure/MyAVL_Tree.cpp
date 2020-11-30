@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include<iostream>
-#define max(a, b) (((a) > (b)) ? (a) : (b))
 
 using namespace std;
 
@@ -49,14 +48,15 @@ int height(Node* T) {
 int noNodes(Node* T) {
     if (T == NULL) {
         return 0;
-    }else {
-        return noNodes(T->left) + noNodes(T->right) + 1;
+    }
+    else {
+        return noNodes(T->left) + noNodes(T->right) ;
     }
 }
 
 Node* maxNode(Node* T) {
     if (T->right == NULL) return T;
-    else{
+    else {
         return maxNode(T->right);
     }
 }
@@ -71,23 +71,21 @@ Node* minNode(Node* T) {
 void rotateLL(Tree* T, Node* x, Node* p) {
     p->left = x->right;
     x->right = p;
-    return;
 }
 
 void rotateRR(Tree* T, Node* x, Node* p) {
     p->right = x->left;
     x->left = p;
-    return;
 }
 
 void rotateLR(Tree* T, Node* x, Node* p) {
     rotateRR(T, x->right, x);
-    return rotateLL(T, x, p);
+    rotateLL(T, x, p);
 }
 
 void rotateRL(Tree* T, Node* x, Node* p) {
     rotateLL(T, x->left, x);
-    return rotateRR(T, x, p);
+    rotateRR(T, x, p);
 }
 
 Node* insertBST(Tree* T, int newKey) {
@@ -99,7 +97,7 @@ Node* insertBST(Tree* T, int newKey) {
     }
     else {
         Node* newNode = getNode();
-        newNode->key = newKey;  
+        newNode->key = newKey;
         *T = newNode;
         return *T;
     }
@@ -114,7 +112,7 @@ Node* searchParentNode(Tree* T, Node* n) {
         if (p->key < n->key) {
             p = p->left;
         }
-        else  {
+        else {
             p = p->right;
         }
     }
@@ -124,7 +122,7 @@ Node* searchParentNode(Tree* T, Node* n) {
 
 Node* deleteBST(Tree* T, int deleteKey) {
     Node* p = *T;
-    Node* q = NULL; 
+    Node* q = NULL;
     while (p != NULL && p->key != deleteKey) {
         q = p;
         if (p->key > deleteKey)  p = p->left;
@@ -134,7 +132,7 @@ Node* deleteBST(Tree* T, int deleteKey) {
     if (p->left == NULL && p->right == NULL) {
         if (q != NULL) {
             if (q->left == p)  q->left = NULL;
-            else  q->right = NULL;   
+            else  q->right = NULL;
         }
         else {
             *T = NULL;
@@ -148,7 +146,7 @@ Node* deleteBST(Tree* T, int deleteKey) {
             }
             else {
                 if (q->left == p) q->left = p->right;
-                else  q->right = p->right; 
+                else  q->right = p->right;
             }
         }
         else {
@@ -178,7 +176,7 @@ Node* deleteBST(Tree* T, int deleteKey) {
             }
         }
         p->key = r->key;
-        if (flag=="LEFT") {
+        if (flag == "LEFT") {
             deleteBST(&p->left, r->key);
         }
         else {
@@ -191,19 +189,18 @@ Node* deleteBST(Tree* T, int deleteKey) {
 
 
 
-Node* updateBF(Tree* T, Node* y, Node** x, Node** f) {
-    Node* p = y;
-    if (p == nullptr)  return p;
+Node* updateBF(Tree* T, Node* y, Node** x, Node** p) {
+    Node* n = y;
+    if (n == nullptr)  return n;
+    if (n->right == NULL && n->left == NULL) n->bf = 0;
+    else if (n->left == NULL)  n->bf = -height(n->right);
+    else if (n->right == NULL)   n->bf = height(n->left);
+    else   n->bf = height(n->left) - height(n->right);
 
-    if (p->right == NULL && p->left == NULL) p->bf = 0;
-    else if (p->left == NULL)  p->bf = -height(p->right);
-    else if (p->right == NULL)   p->bf = height(p->left);
-    else   p->bf = height(p->left) - height(p->right);
-
-    if (p->bf == 2 || p->bf == -2)  return p;
+    if (n->bf > 1 || n->bf <-1)  return n;
     else {
-        updateBF(T, p->left, x, f);
-        updateBF(T, p->right, x, f);
+        updateBF(T, n->left, x, p);
+        updateBF(T, n->right, x, p);
     }
 }
 
@@ -211,45 +208,52 @@ Node* updateBF(Tree* T, Node* y, Node** x, Node** f) {
 
 void insertAVL(Tree* T, int newKey) {
     Node* n = insertBST(T, newKey);
-    Node* p = searchParentNode(T, n);
-    Node* q = updateBF(T, n, &n, &p);
-    if (p == nullptr) cout<< "NO";
+    Node* q = searchParentNode(T, n);
+    Node* p = updateBF(T, *T, &n, &q);
+    if (p == nullptr) cout << "NO";
     else {
-        if (p->bf == 2) {
-            if (p->left->key > newKey) cout << "LL";
-            else   cout << " LR";
+        if (p->bf > 1) {
+            if (p->left->bf < 0) {
+                cout << "LR";
+            }
+            else {
+                cout << "LL";
+            }
         }
-        else if (p->bf == -2) {
-            if (p->right->key < newKey)   cout << "RR";
-            else cout << " RL";
+        else if (p->bf < -1) {
+            if (p->right->bf > 0) {
+                cout << "RL";
+            }
+            else {
+                cout << "RR";
+            }
         }
         else {
             cout << "NO";
         }
     }
-
 
 }
 
 void deleteAVL(Tree* T, int deleteKey) {
     Node* n = deleteBST(T, deleteKey);
-    Node* P = searchParentNode(T, n);
-    Node* p = updateBF(T, *T, &n, &P);
-    if (p == nullptr) cout<<"NO";
+    Node* q = searchParentNode(T, n);
+    Node* p = updateBF(T, *T, &n, &q);
+    if (p == nullptr) cout << "NO";
     else {
-        if (p->bf == 2) {
+        if (p->bf > 1) {
             if (p->left->bf < 0)  cout << "LR";
-            else cout << "LL";        
+            else cout << "LL";
         }
-        else if (p->bf == -2) {
+        else if (p->bf < -1) {
             if (p->right->bf > 0)  cout << "RL";
-            else  cout << "RR";    
+            else  cout << "RR";
         }
         else {
             cout << "NO";
         }
     }
-    
+
 }
 
 void inorderAVL(Tree T) {
@@ -263,9 +267,9 @@ void inorderAVL(Tree T) {
 
 int main() {
     int testcase[] = { 40, 11, 77, 33, 20, 90, 99, 70, 88, 80, 66, 10, 22, 30, 44, 55, 50, 60, 25, 49 };
-   
+
     Tree T = NULL;
-    cout << "20175161";
+
     // insertion
     for (int i = 0; i < 20; i++) { printf("%d ", testcase[i]); insertAVL(&T, testcase[i]); printf(" : "); inorderAVL(T); printf("\n"); }
 
