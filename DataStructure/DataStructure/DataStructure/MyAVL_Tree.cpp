@@ -22,7 +22,7 @@ void rotateRL(Tree* T, Node* x, Node* p);
 Node* searchParentNode(Tree* T, Node* n);
 Node* insertBST(Tree* T, int newKey);
 Node* deleteBST(Tree* T, int deleteKey);
-Node* updateBF(Tree* T, Node* y, Node** x, Node** f);
+void updateBF(Tree* T, Node* y, Node** x, Node** p);
 void deleteAVL(Tree* T, int deleteKey);
 void insertAVL(Tree* T, int newKey);
 void inorderAVL(Tree T);
@@ -189,9 +189,9 @@ Node* deleteBST(Tree* T, int deleteKey) {
 
 
 
-Node* updateBF(Tree* T, Node* y, Node** x, Node** p) {
+void updateBF(Tree* T, Node* y, Node** x, Node** p) {
     Node* n = y;
-    if (n == nullptr)  return n;
+    if (n == nullptr)  
     if (n->right == NULL && n->left == NULL) n->bf = 0;
     else if (n->left == NULL)  n->bf = -height(n->right);
     else if (n->right == NULL)   n->bf = height(n->left);
@@ -207,31 +207,11 @@ Node* updateBF(Tree* T, Node* y, Node** x, Node** p) {
 
 
 void insertAVL(Tree* T, int newKey) {
-    Node* n = insertBST(T, newKey);
-    Node* q = searchParentNode(T, n);
-    Node* p = updateBF(T, *T, &n, &q);
-    if (p == nullptr) cout << "NO";
-    else {
-        if (p->bf > 1) {
-            if (p->left->bf < 0) {
-                cout << "LR";
-            }
-            else {
-                cout << "LL";
-            }
-        }
-        else if (p->bf < -1) {
-            if (p->right->bf > 0) {
-                cout << "RL";
-            }
-            else {
-                cout << "RR";
-            }
-        }
-        else {
-            cout << "NO";
-        }
-    }
+    Node* y = insertBST(T, newKey); //새로 삽입되는 노드
+    Node* x = NULL;
+
+    updateBF(T, y, &x, &q);
+    
 
 }
 

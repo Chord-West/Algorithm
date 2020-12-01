@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>78a9832a-c9cd-41ad-b4b3-bcf7f00df736</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Level2\tagetnumber.py</StartupFile>
+    <StartupFile>Level3\network.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Level2\tagetnumber.py" />
+    <Compile Include="Level3\network.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Level2\" />
+    <Folder Include="Level3\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
