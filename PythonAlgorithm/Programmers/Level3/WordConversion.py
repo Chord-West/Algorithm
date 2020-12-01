@@ -1,44 +1,28 @@
-
 def solution(begin, target, words):
     answer = 0
-    n = len(words)
-    visited=[0]*n
-    graph=[[] for _ in range(n)]
+    if target not in words:
+        return 0
+    visited = [0 for x in words]
+    def dfs(begin):
+        nonlocal answer
+        stacks = [begin]
 
-    for i,x in enumerate(words):        
-        for j,y in enumerate(words):
-            count=0
-            for k in range(len(x)):
-                if x[k]==y[k]:
-                    count+=1
-            if count>1:
-                graph[i].append(j)
-                
-    start =[]   
-    for i,x in enumerate(words):
-       count=0
-       for j in range(len(x)):
-                if x[j]==begin[j]:
-                    count+=1
-       if count>1:
-            start.append(i)
+        while stacks:
+            stack = stacks.pop()
+            if stack == target:
+                return
 
-    for x in graph:
-        x.sort()
+            for i in range(len(words)):
+                if len([j for j in range(len(words[i])) if words[i][j]!=stack[j]]) ==1:
+                    if visited[i]!=0:
+                        continue
+                    visited[i] = 1
 
-    def dfs(start,count):
-        visited[start]=count
-        if words[start]==target:
-            nonlocal answer
-            answer=count
-        for x in graph[start]:
-            if visited[x]==0:
-                dfs(x,count+1)
-    for x in start:
-        count=0
-        dfs(x,count)
-        answer-=1
- 
+                    stacks.append(words[i])
+
+            answer+=1
+
+    dfs(begin)
     return answer
 
 
