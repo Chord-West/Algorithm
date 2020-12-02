@@ -18,7 +18,7 @@
     <ClCompile Include="BinarySearchTree.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="MyAVL_Tree.cpp">
+    <ClCompile Include="B-Tree.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
