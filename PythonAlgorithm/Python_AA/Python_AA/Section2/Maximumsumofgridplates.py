@@ -1,6 +1,6 @@
 #import sys
 
-# sys.stdin = open("input.txt","rt")
+# sys.stdin = open("input.txt","rt")대각선
 
 n=int(input())
 board=[list(map(int,input().split())) for _ in range(n)]
