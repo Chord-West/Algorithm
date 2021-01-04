@@ -3,17 +3,17 @@ sys.stdin=open("input.txt","rt")
 
 n = int(input())
 arr = list(map(int,input().split()))
-max=0
-for i in range(n):
-    dp=[]
-    dp.append(arr[i])
-    idx=0
-    for j in range(i+1,n):
-        if arr[j]>dp[idx]:
-            dp.append(arr[j])
-            idx+=1
-    if max<len(dp):
-        max=len(dp)
-    dp.clear()
+arr.insert(0,0) # 1부터 진행하기 위해
+ans=0
+dp=[0]*(n+1)
+dp[1]=1
+for i in range(2,n+1):
+    max=0
+    for j in range(i-1,0,-1): # 뒤로 가면서 확인
+        if arr[i]>arr[j] and dp[j]>max:
+            max=dp[j]
+    dp[i]=max+1
+    if dp[i]>ans:
+        ans=dp[i]
 
-print(max)
+print(ans)
