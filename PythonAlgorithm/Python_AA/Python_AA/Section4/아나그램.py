@@ -1,14 +1,15 @@
-#import sys
-#sys.stdin = open("input.txt","rt")
+import sys
+sys.stdin = open("input.txt","rt")
 
 if __name__ == "__main__":
     p=dict()
-    s=dict()
     for w in input():
         p[w]=p.get(w,0)+1
-    for w2 in input():
-        s[w2]=s.get(w2,0)+1
-    if p==s:
-        print("YES")
+    for w in input():
+        p[w]=p.get(w,0)-1
+    for key,value in p.items():
+        if value>0:
+            print("NO")
+            break
     else:
-        print("NO")
+        print("YES")
