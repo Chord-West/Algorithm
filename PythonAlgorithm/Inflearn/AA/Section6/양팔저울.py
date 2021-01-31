@@ -4,7 +4,7 @@ import sys
 def DFS(L,sum):
     global total
     if L==k:
-        if 0<sum and sum<=total:
+        if 0<sum<=total:
             ch[sum]=1
     else:
         DFS(L+1,sum+w[L])
