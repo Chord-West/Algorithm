@@ -1,13 +1,14 @@
 import sys
 from collections import deque
-#sys.stdin = open("input.txt","rt")
+sys.stdin = open("input.txt","rt")
 
 if __name__ == "__main__":
     maze = [list(map(int,input().split())) for _ in range(7)]
+    dis=[[0]*7 for _ in range(7)]
     #    D,Up, R, L
-    dx = [0,0,1,-1]
-    dy = [1,-1,0,0]
-    maze[0][0]=2
+    dx = [-1,0,1,-0]
+    dy = [0,-1,0,1]
+    maze[0][0]=1
 
     Q = deque()
     Q.append((0,0))
@@ -16,15 +17,14 @@ if __name__ == "__main__":
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
-            if nx < 0 or ny < 0 or nx > 6 or ny > 6:
-                continue
-            elif maze[ny][nx]==0:
-                maze[ny][nx]=maze[y][x]+1
+            if 0<=nx<=6 and 0<=ny<=6 and maze[ny][nx]==0:
+                maze[ny][nx]=1
+                dis[ny][nx]=dis[y][x]+1
                 Q.append((nx,ny))
-    if maze[6][6]==0:
+    if dis[6][6]==0:
         print(-1)
     else:
-        print(maze[6][6]-2)
+        print(dis[6][6])
 
 
 
