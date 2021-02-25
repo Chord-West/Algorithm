@@ -25,20 +25,25 @@
     즉, 유클리드 호제법을 사용해 최대공약수를 구한 다음, x와 y의 곱한 값을 나눠주면 최소공배수를 
 
     구할 수 있다
+    
+    
 
 - 코드
 
   ```python
+  import math
+  math.gcd(a,b) # 내장함수 math를 통해 사용도 가능
+  
   def gcd(a,b):
       while b!=0:
           r = a%b
           a,b = b,r
       return a
   
-  def lcm(a,b):
+def lcm(a,b):
       return a*b // gcd(a,b)
   ```
-
+  
   
 
 
@@ -48,6 +53,66 @@
 ### 자료구조
 
 #### 	- 스택 (Stack)
+
+
+
+#### - 힙 ( Heap )
+
+> Heap 이란 자료구조 형태 중 하나로서 우선순위 쿠를 위해 만들어진 구조이다.
+>
+> 코딩 테스트 문제 중 최솟값 , 혹은 최댓값을 계속해서 호출해야 하는 상황인 경우 **Heap 구조를 이용하여 **
+>
+> **구현하면 시간측면에서 굉장히 효율적인 구현이 가능**하다.
+
+- 코드 구현
+
+  ``` python
+  # heapq 모듈을 이용하요 힙 자료구조를 사용할 수 있다. heapq 는 내장 모듈이므로 따로 설치가 필요하지 않는다. 기본적으로 Min-priority-queue 구조를 가지고 있다.
+  import heapq
+  
+  
+  # 기존 배열을 Heap 구조로 - heapify()
+  testheap = [1,3,2,6,8,0,6]
+  heap.heapify(testheap)
+  print(testheap)
+  # 프린트의 결과값 => Heap구조로 변환
+  [0,3,1,6,8,2,6]
+  
+  
+  # Heap 에 요소 추가하기 - heappush(배열이름, 요소
+  testheap = [] 
+  heapq.heappush(testheap, 3) 
+  heapq.heappush(testheap, 5) 
+  heapq.heappush(testheap, 1) 
+  heapq.heappush(testheap, -3) 
+  print(testheap)
+  # print 결과값 => 
+  [-3, 1, 3, 5]
+  
+  # Heap 요소를 삭제하기 - heappop(배열이름)
+  testheap = []
+  heapq.heappush(testheap, 3)
+  heapq.heappush(testheap, 5)
+  heapq.heappush(testheap, 1)
+  heapq.heappush(testheap, -3) 
+  heapq.heappop(testheap)
+  heapq.heappop(testheap) 
+  print(testheap) 
+  # print 결과값 => 
+  [3, 5]
+  
+  # MaxHeap 구현하기
+  a = [3,5,2,4,1] 
+  testheap = [] 
+  for i in a: 
+      heapq.heappush(testheap, (-i,i))
+  
+  
+  ```
+
+  
+
+
 
 
 
