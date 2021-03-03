@@ -19,4 +19,4 @@ def solution(people, limit):
                 q.pop()
                 answer += 1
 
-    return answer:
+    return answer
