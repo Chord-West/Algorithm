@@ -11,6 +11,5 @@ while q:
     q.rotate(-(int(k) - 1))
     ans.append(q.popleft())
 print('<',end='')
-for a in ans[:-1]:
-    print('%d, ' %a,end='')
+for a in ans[:-1]:    print('%d, ' %a,end='')
 print('%d>' %ans[-1],end='')
