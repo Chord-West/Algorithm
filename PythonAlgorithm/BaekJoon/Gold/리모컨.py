@@ -11,8 +11,7 @@ min_cnt = abs(100-n)
 for i in range(1000001):
     ch = True
     for num in str(i):
-        print(num)
-        if num not in remote:
+        if int(num) not in remote:
             ch = False
             break
     if ch:
