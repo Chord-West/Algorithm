@@ -5,7 +5,7 @@ n , m = map(int,input().split())
 maze = [[int(i) for i in input()] for _ in range(n)]
 dx = [0,0,1,-1]
 dy = [1,-1,0,0]
-def dfs(x,y):
+def bfs(x,y):
     q = deque([[x,y]])
     while q:
         a,b = q.popleft()
@@ -17,5 +17,5 @@ def dfs(x,y):
                 q.append([nx,ny])
 
 
-dfs(0,0)
+bfs(0,0)
 print(maze[n-1][m-1])
