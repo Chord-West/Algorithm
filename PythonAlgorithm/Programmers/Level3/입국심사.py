@@ -1,9 +1,19 @@
-# from collections import deque
-#
-#
-# def solution(n, times):
-#     answer = 0
-#     q = deque([i for i in range(n)])
-#     while q:
-#
-#     return answer
+def solution(n, times):
+    answer = 0
+    left = 1
+    right = n*max(times)
+    while left<=right:
+        mid = (left + right)//2
+        count=0
+        for time in times:
+            count+=mid//time
+            if count>=n:
+                break
+        if count>=n:
+            answer=mid
+            right = mid-1
+        elif count<n:
+                left=mid+1
+    return answer
+
+solution(6,[7,10])
