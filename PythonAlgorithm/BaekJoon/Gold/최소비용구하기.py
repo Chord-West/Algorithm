@@ -4,7 +4,7 @@ sys.stdin = open("input.txt","rt")
 input = sys.stdin.readline
 
 
-def dijkstra(start):
+def dijkstra(start,end):
     visited[start] = 0
     heap=[]
     heappush(heap,(0,start))
@@ -17,7 +17,7 @@ def dijkstra(start):
             if visited[next_node] > next_cost:
                 visited[next_node] = next_cost
                 heappush(heap,(next_cost,next_node))
-
+    return visited[end]
 
 INF = sys.maxsize
 N = int(input()) # 도시의 개수
@@ -30,5 +30,4 @@ for _ in range(M):
     bus[a].append((cost,b))
 
 start, end = map(int,input().split())
-dijkstra(start)
-print(visited[end])
+print(dijkstra(start,end))
