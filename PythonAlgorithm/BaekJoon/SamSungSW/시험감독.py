@@ -15,7 +15,7 @@ for i in range(len(A)):
     if A[i]>0:
         if A[i]%C==0:
             ans+=A[i]//C
-       else:
+        else:
             ans += A[i] // C + 1
 
 print(ans)
