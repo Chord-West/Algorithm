@@ -19,7 +19,7 @@ class Solution:
                 right-=1
         return volume
 
-# 스택 이용 Runtime 56ms
+# 스택큐 이용 Runtime 56ms
 
 class Solution:
     def trap(height):

@@ -3,7 +3,7 @@ sys.stdin = open("input.txt","rt")
 input = sys.stdin.readline
 
 a = input()
-stack = [] #스택
+stack = [] #스택큐
 res='' #출력
 
 for x in a:
