@@ -1,25 +1,24 @@
+# 54 ms	14 MB
 import re
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
-        paragraph = re.sub('[^a-z0-9]',' ',paragraph.lower()).split()
         p = dict()
-        for word in paragraph:
-            p[word] = p.get(word,0)+1
-        print(p)
-        tmp_max=0
-        answer=''
-        for k,v in p.items():
-            if tmp_max<v and k not in banned:
-                tmp_max=v
-                answer=k
-        return answer
+        words = re.sub('[^a-z]',' ',paragraph.lower())
+        for word in words.split():
+            if word not in banned:
+                p[word]=p.get(word,0)+1
+        p = sorted(p.items(), key = lambda x:x[1], reverse = True)
+        return p[0][0]
+    
 
-# Couter , 사용
+# Couter , 사용    50 ms	14 MB
 
 import re
-from collections import defaultdict,Counter
+from collections import Counter
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
-        words = [word for word in re.sub(r'[^\w]',' ',paragraph.lower()).split() if word not in banned]
+        p = dict()
+        words = [word for word in re.sub('[^a-z]',' ',paragraph.lower()).split() if word not in banned]
         counts = Counter(words)
         return counts.most_common(1)[0][0]
+       

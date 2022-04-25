@@ -22,12 +22,10 @@ class Solution:
                 word+=x            
         return word==word[::-1]
     
-# 정규표현식 이용
+# 정규표현식 이용 34 ms	15.6 MB
 import re
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        word = s.lower()
-        word = re.sub('[^a-z0-9]', '', word)
-        return word == word[::-1]
-
+        word = re.sub('[^0-9a-z]','',s.lower())
+        return word==word[::-1]
 
