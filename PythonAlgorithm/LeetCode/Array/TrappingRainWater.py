@@ -1,24 +1,21 @@
 from collections import deque
 
-def cal(start,end,idx):
-    stack=[]
-    result = 0
-    max_h = 0
-    for i in range(start,end,idx):
-        if height[i]>=max_h:
-            while stack:
-                result+=max_h-height[stack.pop()]
-            max_h=height[i]
-        else:
-            stack.append(i)
-    return result
-height = [4,2,0,3,2,5]
+height = [0,1,0,2,1,0,1,3,2,1,2,1]
+stack = []
 answer = 0
-mid = height.index(max(height))
-answer+=cal(0,mid+1,1)
-answer+=cal(mid-1,0,-1)
 
-for i in range(len(height)-1,mid-1,-1):
-    print(i)
+for i in range(len(height)):
+    while stack and height[i] > height[stack[-1]]:
+    # 스탹에서 꺼낸다
+        top = stack.pop()
+        if not len(stack):
+            break
+        distance = i - stack[-1] -1
+        waters = min(height[i],height[stack[-1]]) - height[top]
+
+        answer+= distance*waters
+
+    stack.append(i)
+
 
 print(answer)

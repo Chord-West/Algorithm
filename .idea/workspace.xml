@@ -1,40 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
+    <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved 1 problems">
+      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/ThreeSum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/ArrayPartition1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/BestTimetoBuyandSellStock.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/ProductOfArrayExceptSelf.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/TrappingRainWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/TrappingRainWater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/sumofthree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/twosum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/BinarySearch/SearchinRotatedSortedArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/TwoSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/BinarySearch/binarysearch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Graph/Combinations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Graph/LetterCombinationsofaPhoneNumber.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Graph/NumverofIslands.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Graph/ReconstructItinerary.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Graph/Subsets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Graph/combinationsum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Graph/permutaions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Greedy/BestTimetoBuyandSellStock II.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Greedy/QueueReconstructionbyHeight.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Greedy/gasStation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Greedy/taskscheduler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/HashTable/LongestSubstringWithoutRepeatingCharacters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/HashTable/TopKFrequentElements.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/HashTable/jewelsandstones.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/LinkedList/MergeTwoSortedLists.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/LinkedList/PalindromeLinkedList.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/LinkedList/ReverseLinkedList.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/ShortestPath/CheapestFlightsWithinKstops.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/ShortestPath/NetworkDelayTime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/SlidingWindow/MinimumWindowSubstring.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/SlidingWindow/SlidingWindowMaximum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Stack/DailyTemperatures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Stack/validparentheses.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +35,28 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ThreeSum">
+    <configuration name="ThreeSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/ThreeSum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TrappingRainWater" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ThreeSum" />
         <item itemvalue="Python.TrappingRainWater" />
       </list>
     </recent_temporary>
@@ -102,6 +94,14 @@
       <option name="presentableId" value="Default" />
       <updated>1617967822820</updated>
     </task>
+    <task id="LOCAL-00001" summary="solved 1 problems">
+      <created>1652282773096</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652282773096</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,23 +115,77 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="solved 1 problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved 1 problems" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/TrappingRainWater.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="5" />
+          <line>6</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/TrappingRainWater.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="6" />
+          <line>7</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/TrappingRainWater.py</url>
           <line>17</line>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/TrappingRainWater.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/TrappingRainWater.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/TrappingRainWater.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/TrappingRainWater.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/ThreeSum.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/ThreeSum.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/ThreeSum.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/ThreeSum.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/ThreeSum.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PythonAlgorithm/LeetCode/Array/ThreeSum.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
