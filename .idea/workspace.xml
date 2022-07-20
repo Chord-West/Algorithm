@@ -2,52 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved 1 problems">
-      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level1/나머지가1이되는수찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/오픈채팅방.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/124나라의숫자.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/H-index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/JadenCase문자열만들기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/N개의최소공배수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/가장큰정사각형찾기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/가증큰수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/게임맵최단거리.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/구명보트.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/기능개발.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/뉴스클러스터링.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/다리를지나는트럭.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/다음큰숫자.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/더맵게.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/땅따먹기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/멀쩡한사각형.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/메뉴리뉴얼.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/문자열압축.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/문자열압축.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/방문길이.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/배달.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/삼각달팽이.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/소수찾기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/수식최대화.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/숫자의표현.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/스킬트리.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/영어끝말잇기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/예상대진표.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/오픈채팅방.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/올바른괄호.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/위장.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/전화번호목록.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/점프와순간이동.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/조이스틱.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/주식가격.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/짝찌어제거하기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/최댓값과최솟값.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/최솟값찾기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/카펫.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/캐시.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/큰수만들기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/튜플.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/프렌즈4블록.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/프린터.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/피보나치수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/행렬의곱셈.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658153091323</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="solved 1 problems">
+      <created>1658240627446</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658240627446</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
