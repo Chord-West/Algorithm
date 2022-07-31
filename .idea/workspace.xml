@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved 1 problems">
-      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/짝지어제거하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/타겟넘버.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/행렬테두리회전하기.py" afterDir="false" />
+    <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved 2 problems">
+      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/메뉴리뉴얼.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +35,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.타겟넘버">
+  <component name="RunManager" selected="Python.124나라의숫자">
     <configuration name="키패드누르기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,10 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.타겟넘버" />
-        <item itemvalue="Python.기능개발" />
         <item itemvalue="Python.124나라의숫자" />
-        <item itemvalue="Python.최소직사각형" />
         <item itemvalue="Python.키패드누르기" />
       </list>
     </recent_temporary>
@@ -295,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658844308606</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="solved 2 problems">
+      <created>1659015996287</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659015996287</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,9 +312,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solved 2 problems" />
     <MESSAGE value="solved 1 problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved 1 problems" />
+    <MESSAGE value="solved 2 problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved 2 problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
