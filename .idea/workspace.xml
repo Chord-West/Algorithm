@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved 1 problems">
-      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/수식최대화.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/튜플.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -354,7 +354,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659751610694</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="solved 1 problems">
+      <created>1659970302118</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659970302119</updated>
+    </task>
+    <task id="LOCAL-00027" summary="solved 1 problems">
+      <created>1659971180569</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659971180569</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
