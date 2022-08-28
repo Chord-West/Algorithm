@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved 1 problems">
-      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/소수찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/조이스틱.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.괄호변환">
+  <component name="RunManager" selected="Python.124나라의숫자">
     <configuration name="키패드누르기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,7 +164,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.괄호변환" />
         <item itemvalue="Python.124나라의숫자" />
         <item itemvalue="Python.키패드누르기" />
       </list>
