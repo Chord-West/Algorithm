@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved 2 problems">
-      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/괄호회전하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved 1 problem">
+      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/n^2배열자르기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -472,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663594908284</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="solved 1 problem">
+      <created>1663684471471</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1663684471471</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -489,7 +495,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="solved 1 problems" />
     <MESSAGE value="solved 2 problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved 2 problems" />
+    <MESSAGE value="solved 1 problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved 1 problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
