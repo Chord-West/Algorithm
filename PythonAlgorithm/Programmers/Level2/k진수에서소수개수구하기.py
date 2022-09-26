@@ -1,23 +1,26 @@
 def solution(n, k):
     answer = 0
     # 진법 변환
-    prime = [[0] * (n)]
-    for i in range(2, n + 1):
-        if prime[i] == 0:
-            for j in range(j * 2, n, j):
-                prime[j] = 1
-    for x in subin(n, k).split('0'):
-        if prime[int(x, k)] == 0:
+    for x in change(n, k).split('0'):
+        if len(x) == 0:
+            continue
+        i = int(x)
+        sosu = True
+        if i < 2:
+            continue
+        for j in range(2, int(i ** 0.5) + 1):
+            if i % j == 0:
+                sosu = False
+                break
+        if sosu:
             answer += 1
     return answer
 
 
-def subin(n, k):
+def change(n, k):
     s = ''
     while n > 0:
         s += str(n % k)
         n = n // k
-    while '00' in s:
-        s = s.replace('00', '0')
     return s[::-1]
 
