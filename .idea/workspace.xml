@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved 1 problem">
-      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/주차요금계산.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/주차요금계산.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/주차요금계산.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -500,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664205439177</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="solved 1 problem">
+      <created>1664636049559</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1664636049560</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
