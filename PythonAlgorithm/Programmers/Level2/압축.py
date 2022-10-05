@@ -8,13 +8,13 @@ def solution(msg):
         q.append(m)
         while q:
             word = ''.join(q)
-            if word in p:
-                break
-            else:
+            if word not in p:
                 answer.append(p[word[:-1]])
                 p[word] = idx
                 idx+=1
                 while len(q) > 1:
                     q.popleft()
+            else:
+                break
     answer.append(p[''.join(q)])
     return answer
