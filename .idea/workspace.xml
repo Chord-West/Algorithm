@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved 1 problem">
-      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/주식가격.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/프렌즈4블록.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/압축.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/Level2/압축.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.압축">
+  <component name="RunManager" selected="Python.124나라의숫자">
     <configuration name="키패드누르기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,7 +206,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.압축" />
         <item itemvalue="Python.124나라의숫자" />
         <item itemvalue="Python.키패드누르기" />
       </list>
@@ -544,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664778272632</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="solved 1 problem">
+      <created>1664970166769</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1664970166771</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
