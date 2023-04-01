@@ -1,18 +1,23 @@
 from itertools import permutations
 
+
 def solution(numbers):
     answer = 0
-    isPrime= [0]*pow(10,len(numbers))
-    isPrime[0],isPrime[1]=1,1
-    for i in range(2,len(isPrime)):
-        if isPrime[i]==0:
-            for j in range(i+i,len(isPrime),i):
-                isPrime[j]=1
-    tmp=[]
-    for i in range(len(numbers)):
-        tmp+=list(map(int, map("".join, permutations(list(numbers), i + 1))))
-    tmp=set(tmp)
-    for t in tmp:
-        if isPrime[t]==0:
-            answer+=1
+    arr = set()
+    prime = [0] * 10000000
+    prime[0], prime[1] = 1, 1
+    for i in range(2, 10000000):
+        if prime[i] == 0:
+            for j in range(i * 2, 10000000, i):
+                prime[j] = 1
+
+    for i in range(1, len(numbers) + 1):
+        for x in list(permutations(map(int, numbers), i)):
+            arr.add(int(''.join(map(str, x))))
+
+    for a in arr:
+        if prime[a] == 0:
+            answer += 1
     return answer
+
+

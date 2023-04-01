@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved 1 problem">
+    <list default="true" id="c69a7693-eadb-403f-8861-8881764fa338" name="Default Changelist" comment="solved : Lv.2 마법의 엘레베이터">
+      <change afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/완전탐색/최소직사각형.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/스택큐/기능개발.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/스택큐/다리를지나는트럭.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/스택큐/주식가격.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/스택큐/프린터.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/완전탐색/모의고사.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/완전탐색/모의고사.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/완전탐색/소수찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/완전탐색/소수찾기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/완전탐색/카펫.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/정렬/H-index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/정렬/k번째수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/정렬/가장큰수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/탐욕법/구명보트.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/탐욕법/단속카메라.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/탐욕법/섬연결하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/탐욕법/조이스틱.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/탐욕법/체육복.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/탐욕법/큰수만들기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/해시/베스트앨범.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/해시/완주하지못한선수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/해시/위장.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/해시/전화번호목록.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/힙/더맵게.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/힙/디스크컨트롤러.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgorithm/Programmers/고득점kit/힙/이중우선순위큐.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,13 +242,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617967822820</updated>
-    </task>
-    <task id="LOCAL-00001" summary="solved 1 problems">
-      <created>1652282773096</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1652282773096</updated>
     </task>
     <task id="LOCAL-00002" summary="solved 2 problems">
       <created>1655734454076</created>
@@ -562,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666878091087</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="solved : Lv.2 마법의 엘레베이터">
+      <created>1673268524111</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1673268524111</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -580,7 +604,8 @@
     <MESSAGE value="solved 1 problems" />
     <MESSAGE value="solved 2 problems" />
     <MESSAGE value="solved 1 problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved 1 problem" />
+    <MESSAGE value="solved : Lv.2 마법의 엘레베이터" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved : Lv.2 마법의 엘레베이터" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
